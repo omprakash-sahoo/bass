@@ -1,0 +1,709 @@
+{
+	"id": "1094773f-78ea-f5bf-59f6-63297a24a319",
+	"name": "Bass",
+	"description": "It contains only get method",
+	"order": [
+		"7f02612f-4496-d79a-bb52-ab952571be6f"
+	],
+	"folders": [
+		{
+			"name": "financier",
+			"description": "",
+			"collectionId": "1094773f-78ea-f5bf-59f6-63297a24a319",
+			"order": [
+				"cf1d28d6-60f6-1d03-61ab-23774fb577f5"
+			],
+			"owner": "12464143",
+			"folders_order": [],
+			"id": "2e2eec2b-7295-5ab0-2c98-4f83bd3f2dd1"
+		},
+		{
+			"name": "insurers",
+			"description": "",
+			"collectionId": "1094773f-78ea-f5bf-59f6-63297a24a319",
+			"order": [
+				"90c0477d-272b-ecf8-8194-096bc7e7f511"
+			],
+			"owner": "12464143",
+			"folders_order": [],
+			"id": "41e65108-48a9-e5d5-dc76-f649a83d6e16"
+		},
+		{
+			"name": "makemodel",
+			"description": "",
+			"collectionId": "1094773f-78ea-f5bf-59f6-63297a24a319",
+			"order": [
+				"6dd2698a-7084-2641-d3d1-6aa1deccd1fb",
+				"ed5ee2ba-345b-88af-d7b3-8c51e8172a98",
+				"29e19a7c-6d0f-be71-8cc6-eaa2961722b4",
+				"011c207b-0b0a-a320-c996-5f41b5a2a498",
+				"213c6fe2-3293-bb8a-e6b3-a9402906b026",
+				"331f0453-700e-d03c-5ebd-c3099492d73b",
+				"a1d2be32-9da3-4587-f0f4-80e81220796d",
+				"f35e0b4b-e0e4-c785-268d-05e809ffd63f"
+			],
+			"owner": 0,
+			"folders_order": [],
+			"id": "bee5c2d5-8950-aeca-a3bc-90771234ee6b"
+		},
+		{
+			"name": "pincode",
+			"description": "",
+			"collectionId": "1094773f-78ea-f5bf-59f6-63297a24a319",
+			"order": [
+				"c99418de-373c-f792-36e0-eb12d8d153c0",
+				"25e7a451-6502-6663-f2fb-46697a248f4f"
+			],
+			"owner": "12464143",
+			"folders_order": [],
+			"id": "5b0e81aa-312d-ca81-ba21-ff5207da34ca"
+		},
+		{
+			"name": "rto",
+			"description": "",
+			"collectionId": "1094773f-78ea-f5bf-59f6-63297a24a319",
+			"order": [
+				"552c9de4-1cd8-d9c0-d5f1-278c38aac330",
+				"aca133f6-5af6-7e32-249f-39add482216e",
+				"4a83d184-15f9-3ebd-4bed-1b0a70ab043a",
+				"5ef35877-26a1-b9bd-a414-f46b185f2c6d",
+				"5ae5c9c4-f541-8c23-6b4f-b0861e19e36d",
+				"ace28620-2225-3c77-af85-6cc2c30edcee"
+			],
+			"owner": 0,
+			"folders_order": [],
+			"id": "c2b99af2-faf3-1748-2436-66bd8a3ec4d1"
+		}
+	],
+	"folders_order": [
+		"bee5c2d5-8950-aeca-a3bc-90771234ee6b",
+		"c2b99af2-faf3-1748-2436-66bd8a3ec4d1",
+		"2e2eec2b-7295-5ab0-2c98-4f83bd3f2dd1",
+		"41e65108-48a9-e5d5-dc76-f649a83d6e16",
+		"5b0e81aa-312d-ca81-ba21-ff5207da34ca"
+	],
+	"timestamp": 1598030595290,
+	"owner": "12464143",
+	"public": false,
+	"requests": [
+		{
+			"id": "011c207b-0b0a-a320-c996-5f41b5a2a498",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost/bass/make/hdfc?make=polo",
+			"queryParams": [
+				{
+					"key": "make",
+					"value": "polo",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "1094773f-78ea-f5bf-59f6-63297a24a319",
+			"data": null,
+			"dataMode": "params",
+			"name": "hdfc",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1598208299319,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "bee5c2d5-8950-aeca-a3bc-90771234ee6b"
+		},
+		{
+			"id": "213c6fe2-3293-bb8a-e6b3-a9402906b026",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost/bass/make/itus?make=polo",
+			"folder": "bee5c2d5-8950-aeca-a3bc-90771234ee6b",
+			"queryParams": [
+				{
+					"key": "make",
+					"value": "polo",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1598208935230,
+			"name": "itus",
+			"description": "",
+			"collectionId": "1094773f-78ea-f5bf-59f6-63297a24a319",
+			"responses": []
+		},
+		{
+			"id": "25e7a451-6502-6663-f2fb-46697a248f4f",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost/bass/pincode/reliance?pincode=524101",
+			"folder": "5b0e81aa-312d-ca81-ba21-ff5207da34ca",
+			"queryParams": [
+				{
+					"key": "pincode",
+					"value": "524101",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1598266823593,
+			"name": "pincode/reliance",
+			"description": "",
+			"collectionId": "1094773f-78ea-f5bf-59f6-63297a24a319",
+			"responses": []
+		},
+		{
+			"id": "29e19a7c-6d0f-be71-8cc6-eaa2961722b4",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost/bass/make/godi2w?make=bajaj",
+			"queryParams": [
+				{
+					"key": "make",
+					"value": "bajaj",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "1094773f-78ea-f5bf-59f6-63297a24a319",
+			"data": null,
+			"dataMode": "params",
+			"name": "Godigit 2w",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1598207976864,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "bee5c2d5-8950-aeca-a3bc-90771234ee6b"
+		},
+		{
+			"id": "331f0453-700e-d03c-5ebd-c3099492d73b",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost/bass/make/reliance?make=bajaj",
+			"queryParams": [
+				{
+					"key": "make",
+					"value": "bajaj",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "1094773f-78ea-f5bf-59f6-63297a24a319",
+			"data": null,
+			"dataMode": "params",
+			"name": "reliance",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1598209437204,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "bee5c2d5-8950-aeca-a3bc-90771234ee6b"
+		},
+		{
+			"id": "4a83d184-15f9-3ebd-4bed-1b0a70ab043a",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost/bass/rto/hdfc4w?rto=09",
+			"queryParams": [
+				{
+					"key": "rto",
+					"value": "09",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "1094773f-78ea-f5bf-59f6-63297a24a319",
+			"data": null,
+			"dataMode": "params",
+			"name": "hdfc4w",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1598206703415,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "c2b99af2-faf3-1748-2436-66bd8a3ec4d1"
+		},
+		{
+			"id": "552c9de4-1cd8-d9c0-d5f1-278c38aac330",
+			"headers": "Accept: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/bass/rto/reliance?rto=06",
+			"folder": "c2b99af2-faf3-1748-2436-66bd8a3ec4d1",
+			"queryParams": [
+				{
+					"key": "rto",
+					"value": "06",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1598266702701,
+			"name": "reliance",
+			"description": "",
+			"collectionId": "1094773f-78ea-f5bf-59f6-63297a24a319",
+			"responses": []
+		},
+		{
+			"id": "5ae5c9c4-f541-8c23-6b4f-b0861e19e36d",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost/bass/rto/kotak?rto=09",
+			"queryParams": [
+				{
+					"key": "rto",
+					"value": "09",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "1094773f-78ea-f5bf-59f6-63297a24a319",
+			"data": null,
+			"dataMode": "params",
+			"name": "Kotak",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1598206724859,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "c2b99af2-faf3-1748-2436-66bd8a3ec4d1"
+		},
+		{
+			"id": "5ef35877-26a1-b9bd-a414-f46b185f2c6d",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost/bass/rto/hdfc?rto=09",
+			"queryParams": [
+				{
+					"key": "rto",
+					"value": "09",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "1094773f-78ea-f5bf-59f6-63297a24a319",
+			"data": null,
+			"dataMode": "params",
+			"name": "hdfc",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1598206714298,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "c2b99af2-faf3-1748-2436-66bd8a3ec4d1"
+		},
+		{
+			"id": "6dd2698a-7084-2641-d3d1-6aa1deccd1fb",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost/bass/make/fut2w?make=bajaj",
+			"queryParams": [
+				{
+					"key": "make",
+					"value": "bajaj",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "1094773f-78ea-f5bf-59f6-63297a24a319",
+			"data": null,
+			"dataMode": "params",
+			"name": "fut2w",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1598206606770,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "bee5c2d5-8950-aeca-a3bc-90771234ee6b"
+		},
+		{
+			"id": "7f02612f-4496-d79a-bb52-ab952571be6f",
+			"headers": "",
+			"headerData": [
+				{
+					"key": "",
+					"value": "",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "http://localhost/bass/login?username=reliance&password=123456",
+			"queryParams": [
+				{
+					"key": "username",
+					"value": "reliance",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "123456",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1598361650484,
+			"name": "login",
+			"description": "",
+			"collectionId": "1094773f-78ea-f5bf-59f6-63297a24a319",
+			"responses": []
+		},
+		{
+			"id": "90c0477d-272b-ecf8-8194-096bc7e7f511",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost/bass/insure/godigit?insurer=a",
+			"folder": "41e65108-48a9-e5d5-dc76-f649a83d6e16",
+			"queryParams": [
+				{
+					"key": "insurer",
+					"value": "a",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1598245343641,
+			"name": "insure/godigit",
+			"description": "",
+			"collectionId": "1094773f-78ea-f5bf-59f6-63297a24a319",
+			"responses": []
+		},
+		{
+			"id": "a1d2be32-9da3-4587-f0f4-80e81220796d",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost/bass/make/royal?make=bajaj",
+			"queryParams": [
+				{
+					"key": "make",
+					"value": "bajaj",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "1094773f-78ea-f5bf-59f6-63297a24a319",
+			"data": null,
+			"dataMode": "params",
+			"name": "Royalsundaram",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1598210025570,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "bee5c2d5-8950-aeca-a3bc-90771234ee6b"
+		},
+		{
+			"id": "aca133f6-5af6-7e32-249f-39add482216e",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost/bass/rto/future?rto=6",
+			"folder": "c2b99af2-faf3-1748-2436-66bd8a3ec4d1",
+			"queryParams": [
+				{
+					"key": "rto",
+					"value": "6",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1598267075653,
+			"name": "future",
+			"description": "",
+			"collectionId": "1094773f-78ea-f5bf-59f6-63297a24a319",
+			"responses": []
+		},
+		{
+			"id": "ace28620-2225-3c77-af85-6cc2c30edcee",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost/bass/rto/rto?rto=09",
+			"queryParams": [
+				{
+					"key": "rto",
+					"value": "09",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "1094773f-78ea-f5bf-59f6-63297a24a319",
+			"data": null,
+			"dataMode": "params",
+			"name": "rto",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1598206736306,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "c2b99af2-faf3-1748-2436-66bd8a3ec4d1"
+		},
+		{
+			"id": "c99418de-373c-f792-36e0-eb12d8d153c0",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost/bass/pincode/pin?pincode=524101",
+			"queryParams": [
+				{
+					"key": "pincode",
+					"value": "524101",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "1094773f-78ea-f5bf-59f6-63297a24a319",
+			"data": null,
+			"dataMode": "params",
+			"name": "pincode",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1598265494442,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "5b0e81aa-312d-ca81-ba21-ff5207da34ca"
+		},
+		{
+			"id": "cf1d28d6-60f6-1d03-61ab-23774fb577f5",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost/bass/fin/godigit?financier=a",
+			"queryParams": [
+				{
+					"key": "financier",
+					"value": "a",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "1094773f-78ea-f5bf-59f6-63297a24a319",
+			"data": null,
+			"dataMode": "params",
+			"name": "godigit",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1598245010083,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "2e2eec2b-7295-5ab0-2c98-4f83bd3f2dd1"
+		},
+		{
+			"id": "ed5ee2ba-345b-88af-d7b3-8c51e8172a98",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost/bass/make/fut4w?make=bajaj",
+			"queryParams": [
+				{
+					"key": "make",
+					"value": "bajaj",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "1094773f-78ea-f5bf-59f6-63297a24a319",
+			"data": null,
+			"dataMode": "params",
+			"name": "Future 4w",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1598207958986,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "bee5c2d5-8950-aeca-a3bc-90771234ee6b"
+		},
+		{
+			"id": "f35e0b4b-e0e4-c785-268d-05e809ffd63f",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost/bass/make/kotak?make=bajaj",
+			"queryParams": [
+				{
+					"key": "make",
+					"value": "bajaj",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "1094773f-78ea-f5bf-59f6-63297a24a319",
+			"data": null,
+			"dataMode": "params",
+			"name": "kotak",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1598362665282,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "bee5c2d5-8950-aeca-a3bc-90771234ee6b"
+		}
+	]
+}
