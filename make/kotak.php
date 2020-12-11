@@ -8,7 +8,7 @@ $responseArray = array('status'=>0,'message'=>'Something went wrong','resultData
 if($_SERVER['REQUEST_METHOD']==='GET'){
 if((isset($_REQUEST['make']))){
     $kotakMake = $_REQUEST['make'];
-			$query = 'SELECT make FROM  kotakvec WHERE make LIKE "%' .$kotakMake. '%" LIMIT 10';
+			$query = 'SELECT make,model,segment,sc,fuel,cluster,cc,type FROM  kotakvec WHERE make LIKE "%' .$kotakMake. '%" LIMIT 10';
             
     $queryResult = mysqli_query($conn,$query);
     if((mysqli_num_rows($queryResult)>0)){

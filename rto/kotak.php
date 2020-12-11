@@ -8,7 +8,7 @@ $responseArray = array('status'=>0,'message'=>'Something went wrong','resultData
 if($_SERVER['REQUEST_METHOD']==='GET'){
 if((isset($_REQUEST['rto']))){
     $kotakRtoData = $_REQUEST['rto'];
-    $query = 'SELECT rto,location FROM kotakrto WHERE rto LIKE "%' .$kotakRtoData. '%"';
+    $query = 'SELECT rto,location,rtocode,statec,cul,zone,rtoid FROM kotakrto WHERE rto LIKE "%' .$kotakRtoData. '%"';
     $queryResult = mysqli_query($conn,$query);
     if((mysqli_num_rows($queryResult)>0)){
         $resultData = mysqli_fetch_all($queryResult , MYSQLI_ASSOC);

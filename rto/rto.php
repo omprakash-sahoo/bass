@@ -8,7 +8,7 @@ $responseArray = array('status'=>0,'message'=>'Something went wrong','resultData
 if($_SERVER['REQUEST_METHOD']==='GET'){
 if((isset($_REQUEST['rto']))){
     $rtoData = $_GET['rto'];
-    $query = 'SELECT sel,rtocode,location FROM rto WHERE sel LIKE "%' .$rtoData. '%"';
+    $query = "SELECT sel,rtocode,location FROM rto WHERE sel LIKE '%$rtoData%'";
     $queryResult = mysqli_query($conn,$query);
     if((mysqli_num_rows($queryResult)>0)){
         $resultData = mysqli_fetch_all($queryResult , MYSQLI_ASSOC);

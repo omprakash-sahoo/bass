@@ -8,7 +8,7 @@ $responseArray = array('status'=>0,'message'=>'Something went wrong','resultData
 if($_SERVER['REQUEST_METHOD']==='GET'){
 if((isset($_REQUEST['make']))){
     $godigit2wMake = $_REQUEST['make'];
-    $query = 'SELECT make FROM godigit2w WHERE make LIKE "%' .$godigit2wMake. '%" LIMIT 10';
+    $query = 'SELECT make,vcode FROM godigit2w WHERE make LIKE "%' .$godigit2wMake. '%" LIMIT 10';
             
     $queryResult = mysqli_query($conn,$query);
     if((mysqli_num_rows($queryResult)>0)){

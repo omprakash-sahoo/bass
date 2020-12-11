@@ -8,7 +8,7 @@ $responseArray = array('status'=>0,'message'=>'Something went wrong','resultData
 if($_SERVER['REQUEST_METHOD']==='GET'){
 if((isset($_REQUEST['rto']))){
     $reliRtoData = $_REQUEST['rto'];
-    $query = 'SELECT rto FROM relirto WHERE rto LIKE "%' .$reliRtoData. '%"';
+    $query = 'SELECT rto,rtid,rtocode FROM relirto WHERE rto LIKE "%' .$reliRtoData. '%"';
     $queryResult = mysqli_query($conn,$query);
     if((mysqli_num_rows($queryResult)>0)){
         $resultData = mysqli_fetch_all($queryResult , MYSQLI_ASSOC);
